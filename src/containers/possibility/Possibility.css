@@ -1,0 +1,79 @@
+.gpt3__possibility {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.gpt3__possibility-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.gpt3__possibility-image img {
+    width: 22.95681rem;
+        height: 25.12844rem;
+}
+.gpt3__possibility-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+.gpt3__possibility-content h4 {
+    color: #71E5FF;
+        font-family: var(--font-family);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.875rem;
+        margin: 1rem 0;
+      
+
+
+    
+}
+.gpt3__possibility-content h4:last-child {
+
+    color: #FF8A71;
+}
+.gpt3__possibility-content h1 {
+    color: #FFF;
+        font-family: var(--font-family);
+        font-size: 2.125rem;
+        font-weight: 800;
+        line-height: 2.8125rem;
+}
+.gpt3__possibility-content p {
+    
+    /* width: 470px;
+    height: 120px;
+    left: 742px;
+    top: 2808px; */
+  
+    color: var(--color-text);
+        font-family: var(--font-family);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.875rem;
+        margin-bottom: 2rem;
+     
+
+}
+
+@media screen and (max-width: 950px) {
+    .gpt3__possibility {
+        flex-direction: column;
+    }
+    .gpt3__possibility-image {
+        margin: 1rem 0;
+    }
+    .gpt3__possibility-content {
+        margin-top: 2rem;
+
+    }
+    
+}
